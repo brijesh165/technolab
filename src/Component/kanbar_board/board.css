@@ -1,0 +1,81 @@
+.addNewColumn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.boardWrapper {
+    background: #efefef;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    width: calc(100vw);
+    padding: 5px;
+}
+
+.scrolls {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: calc(100vh);
+    white-space: nowrap;
+}
+
+.columns {
+    box-shadow: 1px 1px 10px #999; 
+    margin: 5px;
+    max-height: 50px;
+    cursor: pointer;
+    display:inline-block;
+    *display:inline;
+    *zoom:1;
+    vertical-align:top;
+}
+
+.parentCard {
+    max-height: calc(100vh - 25px);
+    overflow-y: scroll;
+}
+
+.cardTitle {
+    text-align: left;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.childCard {
+    background-color: white !important;
+    width: 375px;
+    margin: 10px 0px;
+    overflow-y: scroll;
+}
+
+.cardHeader {
+    display: flex; 
+    padding: 10px; 
+    overflow: hidden;
+    background: white;
+}
+
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.firstRow {
+    display: flex; 
+}
+
+.secondRow {
+    display: flex; 
+    justify-content: flex-end;
+}
+
+.profileImage {
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+}
